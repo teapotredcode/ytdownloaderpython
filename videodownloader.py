@@ -7,7 +7,6 @@ yt = YouTube(link)
 #print some info from the vid
 
 print("Title of the video: ", yt.title)
-print("Views on the video: ", yt.views)
 print("Length of the video: ", yt.length)
 ys = yt.streams.get_highest_resolution()
 #wait
